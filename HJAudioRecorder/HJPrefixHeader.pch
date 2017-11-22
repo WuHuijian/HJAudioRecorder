@@ -1,0 +1,14 @@
+//
+//  HJPrefixHeader.pch
+//  HJAudioRecorder
+//
+//  Created by WHJ on 2017/11/22.
+//  Copyright © 2017年 WHJ. All rights reserved.
+//
+
+#ifndef HJPrefixHeader_pch
+#define HJPrefixHeader_pch
+
+#import <Masonry.h>
+
+#endif /* HJPrefixHeader_pch */

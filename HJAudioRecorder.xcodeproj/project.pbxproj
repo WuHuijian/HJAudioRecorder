@@ -1,0 +1,780 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CFB24739A0D42D7C166ABDC /* libPods-HJAudioRecorderTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE4E9A40BF618A84E0971C0E /* libPods-HJAudioRecorderTests.a */; };
+		8A1B1E779F2188DF26BDC842 /* libPods-HJAudioRecorder.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 69012FB02076ED01C3A24130 /* libPods-HJAudioRecorder.a */; };
+		D2A1A5981FC54D2E0029FAF2 /* HJAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A1A5971FC54D2E0029FAF2 /* HJAudioPlayer.m */; };
+		D2A1A59B1FC54D3F0029FAF2 /* HJAudioRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A1A59A1FC54D3F0029FAF2 /* HJAudioRecorder.m */; };
+		D2A1A5A21FC54E4C0029FAF2 /* HJAudioRecordView.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A1A5A11FC54E4C0029FAF2 /* HJAudioRecordView.m */; };
+		D2A1A5A51FC54F440029FAF2 /* HJAudioView.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A1A5A41FC54F440029FAF2 /* HJAudioView.m */; };
+		D2A1A5A81FC54F670029FAF2 /* HJAudioCheckView.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A1A5A71FC54F670029FAF2 /* HJAudioCheckView.m */; };
+		D2A1A5FA1FC567870029FAF2 /* HJRecordingAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A1A5F91FC567870029FAF2 /* HJRecordingAnimationView.m */; };
+		D2A1A5FC1FC56DF70029FAF2 /* Audio.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2A1A5FB1FC56DF70029FAF2 /* Audio.xcassets */; };
+		D2A780D51FB9A58E00BE7CE9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A780D41FB9A58E00BE7CE9 /* AppDelegate.m */; };
+		D2A780D81FB9A58E00BE7CE9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A780D71FB9A58E00BE7CE9 /* ViewController.m */; };
+		D2A780DB1FB9A58E00BE7CE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2A780D91FB9A58E00BE7CE9 /* Main.storyboard */; };
+		D2A780DD1FB9A58E00BE7CE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2A780DC1FB9A58E00BE7CE9 /* Assets.xcassets */; };
+		D2A780E01FB9A58E00BE7CE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2A780DE1FB9A58E00BE7CE9 /* LaunchScreen.storyboard */; };
+		D2A780E31FB9A58E00BE7CE9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A780E21FB9A58E00BE7CE9 /* main.m */; };
+		D2A780ED1FB9A58E00BE7CE9 /* HJAudioRecorderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A780EC1FB9A58E00BE7CE9 /* HJAudioRecorderTests.m */; };
+		D2A780F81FB9A58E00BE7CE9 /* HJAudioRecorderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A780F71FB9A58E00BE7CE9 /* HJAudioRecorderUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D2A780E91FB9A58E00BE7CE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2A780C81FB9A58E00BE7CE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2A780CF1FB9A58E00BE7CE9;
+			remoteInfo = HJAudioRecorder;
+		};
+		D2A780F41FB9A58E00BE7CE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2A780C81FB9A58E00BE7CE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2A780CF1FB9A58E00BE7CE9;
+			remoteInfo = HJAudioRecorder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		114E69C953A13251571EF558 /* Pods-HJAudioRecorderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HJAudioRecorderTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HJAudioRecorderTests/Pods-HJAudioRecorderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5C1A9D66E8F2210BA5F91B2F /* Pods-HJAudioRecorder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HJAudioRecorder.release.xcconfig"; path = "Pods/Target Support Files/Pods-HJAudioRecorder/Pods-HJAudioRecorder.release.xcconfig"; sourceTree = "<group>"; };
+		5E78B49998CFB893984F765C /* Pods-HJAudioRecorderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HJAudioRecorderTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HJAudioRecorderTests/Pods-HJAudioRecorderTests.release.xcconfig"; sourceTree = "<group>"; };
+		69012FB02076ED01C3A24130 /* libPods-HJAudioRecorder.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HJAudioRecorder.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A575DC3C1591D99FA324EC30 /* Pods-HJAudioRecorder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HJAudioRecorder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HJAudioRecorder/Pods-HJAudioRecorder.debug.xcconfig"; sourceTree = "<group>"; };
+		CE4E9A40BF618A84E0971C0E /* libPods-HJAudioRecorderTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HJAudioRecorderTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2A1A5961FC54D2E0029FAF2 /* HJAudioPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJAudioPlayer.h; sourceTree = "<group>"; };
+		D2A1A5971FC54D2E0029FAF2 /* HJAudioPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJAudioPlayer.m; sourceTree = "<group>"; };
+		D2A1A5991FC54D3F0029FAF2 /* HJAudioRecorder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJAudioRecorder.h; sourceTree = "<group>"; };
+		D2A1A59A1FC54D3F0029FAF2 /* HJAudioRecorder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJAudioRecorder.m; sourceTree = "<group>"; };
+		D2A1A5A01FC54E4C0029FAF2 /* HJAudioRecordView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJAudioRecordView.h; sourceTree = "<group>"; };
+		D2A1A5A11FC54E4C0029FAF2 /* HJAudioRecordView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJAudioRecordView.m; sourceTree = "<group>"; };
+		D2A1A5A31FC54F440029FAF2 /* HJAudioView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJAudioView.h; sourceTree = "<group>"; };
+		D2A1A5A41FC54F440029FAF2 /* HJAudioView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJAudioView.m; sourceTree = "<group>"; };
+		D2A1A5A61FC54F670029FAF2 /* HJAudioCheckView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJAudioCheckView.h; sourceTree = "<group>"; };
+		D2A1A5A71FC54F670029FAF2 /* HJAudioCheckView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJAudioCheckView.m; sourceTree = "<group>"; };
+		D2A1A5A91FC553B20029FAF2 /* HJPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJPrefixHeader.pch; sourceTree = "<group>"; };
+		D2A1A5F81FC567870029FAF2 /* HJRecordingAnimationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJRecordingAnimationView.h; sourceTree = "<group>"; };
+		D2A1A5F91FC567870029FAF2 /* HJRecordingAnimationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJRecordingAnimationView.m; sourceTree = "<group>"; };
+		D2A1A5FB1FC56DF70029FAF2 /* Audio.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Audio.xcassets; sourceTree = "<group>"; };
+		D2A780D01FB9A58E00BE7CE9 /* HJAudioRecorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HJAudioRecorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2A780D31FB9A58E00BE7CE9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D2A780D41FB9A58E00BE7CE9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D2A780D61FB9A58E00BE7CE9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D2A780D71FB9A58E00BE7CE9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D2A780DA1FB9A58E00BE7CE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D2A780DC1FB9A58E00BE7CE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D2A780DF1FB9A58E00BE7CE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D2A780E11FB9A58E00BE7CE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2A780E21FB9A58E00BE7CE9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D2A780E81FB9A58E00BE7CE9 /* HJAudioRecorderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HJAudioRecorderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2A780EC1FB9A58E00BE7CE9 /* HJAudioRecorderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJAudioRecorderTests.m; sourceTree = "<group>"; };
+		D2A780EE1FB9A58E00BE7CE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2A780F31FB9A58E00BE7CE9 /* HJAudioRecorderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HJAudioRecorderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2A780F71FB9A58E00BE7CE9 /* HJAudioRecorderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJAudioRecorderUITests.m; sourceTree = "<group>"; };
+		D2A780F91FB9A58E00BE7CE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2A780CD1FB9A58E00BE7CE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A1B1E779F2188DF26BDC842 /* libPods-HJAudioRecorder.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2A780E51FB9A58E00BE7CE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CFB24739A0D42D7C166ABDC /* libPods-HJAudioRecorderTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2A780F01FB9A58E00BE7CE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		804F6AFB11D5212DECB58E21 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A575DC3C1591D99FA324EC30 /* Pods-HJAudioRecorder.debug.xcconfig */,
+				5C1A9D66E8F2210BA5F91B2F /* Pods-HJAudioRecorder.release.xcconfig */,
+				114E69C953A13251571EF558 /* Pods-HJAudioRecorderTests.debug.xcconfig */,
+				5E78B49998CFB893984F765C /* Pods-HJAudioRecorderTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C76223DA61E26240045FDFB7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				69012FB02076ED01C3A24130 /* libPods-HJAudioRecorder.a */,
+				CE4E9A40BF618A84E0971C0E /* libPods-HJAudioRecorderTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D2A1A5941FC54D1B0029FAF2 /* AudioClass */ = {
+			isa = PBXGroup;
+			children = (
+				D2A1A5961FC54D2E0029FAF2 /* HJAudioPlayer.h */,
+				D2A1A5971FC54D2E0029FAF2 /* HJAudioPlayer.m */,
+				D2A1A5991FC54D3F0029FAF2 /* HJAudioRecorder.h */,
+				D2A1A59A1FC54D3F0029FAF2 /* HJAudioRecorder.m */,
+			);
+			path = AudioClass;
+			sourceTree = "<group>";
+		};
+		D2A1A5951FC54D1B0029FAF2 /* AudioUI */ = {
+			isa = PBXGroup;
+			children = (
+				D2A1A5FB1FC56DF70029FAF2 /* Audio.xcassets */,
+				D2A1A59F1FC54E2E0029FAF2 /* AudioRecordUI */,
+			);
+			path = AudioUI;
+			sourceTree = "<group>";
+		};
+		D2A1A59F1FC54E2E0029FAF2 /* AudioRecordUI */ = {
+			isa = PBXGroup;
+			children = (
+				D2A1A5A31FC54F440029FAF2 /* HJAudioView.h */,
+				D2A1A5A41FC54F440029FAF2 /* HJAudioView.m */,
+				D2A1A5A01FC54E4C0029FAF2 /* HJAudioRecordView.h */,
+				D2A1A5A11FC54E4C0029FAF2 /* HJAudioRecordView.m */,
+				D2A1A5A61FC54F670029FAF2 /* HJAudioCheckView.h */,
+				D2A1A5A71FC54F670029FAF2 /* HJAudioCheckView.m */,
+				D2A1A5F81FC567870029FAF2 /* HJRecordingAnimationView.h */,
+				D2A1A5F91FC567870029FAF2 /* HJRecordingAnimationView.m */,
+			);
+			path = AudioRecordUI;
+			sourceTree = "<group>";
+		};
+		D2A780C71FB9A58E00BE7CE9 = {
+			isa = PBXGroup;
+			children = (
+				D2A780D21FB9A58E00BE7CE9 /* HJAudioRecorder */,
+				D2A780EB1FB9A58E00BE7CE9 /* HJAudioRecorderTests */,
+				D2A780F61FB9A58E00BE7CE9 /* HJAudioRecorderUITests */,
+				D2A780D11FB9A58E00BE7CE9 /* Products */,
+				804F6AFB11D5212DECB58E21 /* Pods */,
+				C76223DA61E26240045FDFB7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D2A780D11FB9A58E00BE7CE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2A780D01FB9A58E00BE7CE9 /* HJAudioRecorder.app */,
+				D2A780E81FB9A58E00BE7CE9 /* HJAudioRecorderTests.xctest */,
+				D2A780F31FB9A58E00BE7CE9 /* HJAudioRecorderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2A780D21FB9A58E00BE7CE9 /* HJAudioRecorder */ = {
+			isa = PBXGroup;
+			children = (
+				D2D20A851FBECCE400DA6F2D /* AudioRecorder */,
+				D2A780D31FB9A58E00BE7CE9 /* AppDelegate.h */,
+				D2A780D41FB9A58E00BE7CE9 /* AppDelegate.m */,
+				D2A780D61FB9A58E00BE7CE9 /* ViewController.h */,
+				D2A780D71FB9A58E00BE7CE9 /* ViewController.m */,
+				D2A780D91FB9A58E00BE7CE9 /* Main.storyboard */,
+				D2A780DC1FB9A58E00BE7CE9 /* Assets.xcassets */,
+				D2A780DE1FB9A58E00BE7CE9 /* LaunchScreen.storyboard */,
+				D2A780E11FB9A58E00BE7CE9 /* Info.plist */,
+				D2A780E21FB9A58E00BE7CE9 /* main.m */,
+				D2A1A5A91FC553B20029FAF2 /* HJPrefixHeader.pch */,
+			);
+			path = HJAudioRecorder;
+			sourceTree = "<group>";
+		};
+		D2A780EB1FB9A58E00BE7CE9 /* HJAudioRecorderTests */ = {
+			isa = PBXGroup;
+			children = (
+				D2A780EC1FB9A58E00BE7CE9 /* HJAudioRecorderTests.m */,
+				D2A780EE1FB9A58E00BE7CE9 /* Info.plist */,
+			);
+			path = HJAudioRecorderTests;
+			sourceTree = "<group>";
+		};
+		D2A780F61FB9A58E00BE7CE9 /* HJAudioRecorderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D2A780F71FB9A58E00BE7CE9 /* HJAudioRecorderUITests.m */,
+				D2A780F91FB9A58E00BE7CE9 /* Info.plist */,
+			);
+			path = HJAudioRecorderUITests;
+			sourceTree = "<group>";
+		};
+		D2D20A851FBECCE400DA6F2D /* AudioRecorder */ = {
+			isa = PBXGroup;
+			children = (
+				D2A1A5941FC54D1B0029FAF2 /* AudioClass */,
+				D2A1A5951FC54D1B0029FAF2 /* AudioUI */,
+				D2D20A881FBECCE400DA6F2D /* Dependency */,
+			);
+			path = AudioRecorder;
+			sourceTree = "<group>";
+		};
+		D2D20A881FBECCE400DA6F2D /* Dependency */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Dependency;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2A780CF1FB9A58E00BE7CE9 /* HJAudioRecorder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2A780FC1FB9A58E00BE7CE9 /* Build configuration list for PBXNativeTarget "HJAudioRecorder" */;
+			buildPhases = (
+				336437AE6BEAF577C3F67E34 /* [CP] Check Pods Manifest.lock */,
+				D2A780CC1FB9A58E00BE7CE9 /* Sources */,
+				D2A780CD1FB9A58E00BE7CE9 /* Frameworks */,
+				D2A780CE1FB9A58E00BE7CE9 /* Resources */,
+				BB083C5D39577FD0D68C2629 /* [CP] Embed Pods Frameworks */,
+				4D850BE032E1CE4BDFCDB44A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HJAudioRecorder;
+			productName = HJAudioRecorder;
+			productReference = D2A780D01FB9A58E00BE7CE9 /* HJAudioRecorder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D2A780E71FB9A58E00BE7CE9 /* HJAudioRecorderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2A780FF1FB9A58E00BE7CE9 /* Build configuration list for PBXNativeTarget "HJAudioRecorderTests" */;
+			buildPhases = (
+				8A73E059C5F2EB4D3BF416E9 /* [CP] Check Pods Manifest.lock */,
+				D2A780E41FB9A58E00BE7CE9 /* Sources */,
+				D2A780E51FB9A58E00BE7CE9 /* Frameworks */,
+				D2A780E61FB9A58E00BE7CE9 /* Resources */,
+				C01AAC9004D0FD84F6D77C15 /* [CP] Embed Pods Frameworks */,
+				5216080B4244775F240F0D51 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2A780EA1FB9A58E00BE7CE9 /* PBXTargetDependency */,
+			);
+			name = HJAudioRecorderTests;
+			productName = HJAudioRecorderTests;
+			productReference = D2A780E81FB9A58E00BE7CE9 /* HJAudioRecorderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D2A780F21FB9A58E00BE7CE9 /* HJAudioRecorderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2A781021FB9A58E00BE7CE9 /* Build configuration list for PBXNativeTarget "HJAudioRecorderUITests" */;
+			buildPhases = (
+				D2A780EF1FB9A58E00BE7CE9 /* Sources */,
+				D2A780F01FB9A58E00BE7CE9 /* Frameworks */,
+				D2A780F11FB9A58E00BE7CE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2A780F51FB9A58E00BE7CE9 /* PBXTargetDependency */,
+			);
+			name = HJAudioRecorderUITests;
+			productName = HJAudioRecorderUITests;
+			productReference = D2A780F31FB9A58E00BE7CE9 /* HJAudioRecorderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2A780C81FB9A58E00BE7CE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = WHJ;
+				TargetAttributes = {
+					D2A780CF1FB9A58E00BE7CE9 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					D2A780E71FB9A58E00BE7CE9 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D2A780CF1FB9A58E00BE7CE9;
+					};
+					D2A780F21FB9A58E00BE7CE9 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D2A780CF1FB9A58E00BE7CE9;
+					};
+				};
+			};
+			buildConfigurationList = D2A780CB1FB9A58E00BE7CE9 /* Build configuration list for PBXProject "HJAudioRecorder" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D2A780C71FB9A58E00BE7CE9;
+			productRefGroup = D2A780D11FB9A58E00BE7CE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2A780CF1FB9A58E00BE7CE9 /* HJAudioRecorder */,
+				D2A780E71FB9A58E00BE7CE9 /* HJAudioRecorderTests */,
+				D2A780F21FB9A58E00BE7CE9 /* HJAudioRecorderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2A780CE1FB9A58E00BE7CE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2A780E01FB9A58E00BE7CE9 /* LaunchScreen.storyboard in Resources */,
+				D2A780DD1FB9A58E00BE7CE9 /* Assets.xcassets in Resources */,
+				D2A780DB1FB9A58E00BE7CE9 /* Main.storyboard in Resources */,
+				D2A1A5FC1FC56DF70029FAF2 /* Audio.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2A780E61FB9A58E00BE7CE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2A780F11FB9A58E00BE7CE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		336437AE6BEAF577C3F67E34 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4D850BE032E1CE4BDFCDB44A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HJAudioRecorder/Pods-HJAudioRecorder-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5216080B4244775F240F0D51 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HJAudioRecorderTests/Pods-HJAudioRecorderTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A73E059C5F2EB4D3BF416E9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BB083C5D39577FD0D68C2629 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HJAudioRecorder/Pods-HJAudioRecorder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C01AAC9004D0FD84F6D77C15 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HJAudioRecorderTests/Pods-HJAudioRecorderTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2A780CC1FB9A58E00BE7CE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2A780D81FB9A58E00BE7CE9 /* ViewController.m in Sources */,
+				D2A1A5FA1FC567870029FAF2 /* HJRecordingAnimationView.m in Sources */,
+				D2A1A59B1FC54D3F0029FAF2 /* HJAudioRecorder.m in Sources */,
+				D2A1A5A81FC54F670029FAF2 /* HJAudioCheckView.m in Sources */,
+				D2A780E31FB9A58E00BE7CE9 /* main.m in Sources */,
+				D2A780D51FB9A58E00BE7CE9 /* AppDelegate.m in Sources */,
+				D2A1A5A21FC54E4C0029FAF2 /* HJAudioRecordView.m in Sources */,
+				D2A1A5A51FC54F440029FAF2 /* HJAudioView.m in Sources */,
+				D2A1A5981FC54D2E0029FAF2 /* HJAudioPlayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2A780E41FB9A58E00BE7CE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2A780ED1FB9A58E00BE7CE9 /* HJAudioRecorderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2A780EF1FB9A58E00BE7CE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2A780F81FB9A58E00BE7CE9 /* HJAudioRecorderUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D2A780EA1FB9A58E00BE7CE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2A780CF1FB9A58E00BE7CE9 /* HJAudioRecorder */;
+			targetProxy = D2A780E91FB9A58E00BE7CE9 /* PBXContainerItemProxy */;
+		};
+		D2A780F51FB9A58E00BE7CE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2A780CF1FB9A58E00BE7CE9 /* HJAudioRecorder */;
+			targetProxy = D2A780F41FB9A58E00BE7CE9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D2A780D91FB9A58E00BE7CE9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2A780DA1FB9A58E00BE7CE9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D2A780DE1FB9A58E00BE7CE9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2A780DF1FB9A58E00BE7CE9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D2A780FA1FB9A58E00BE7CE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D2A780FB1FB9A58E00BE7CE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D2A780FD1FB9A58E00BE7CE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A575DC3C1591D99FA324EC30 /* Pods-HJAudioRecorder.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7BY6XUZ4WR;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/HJPrefixHeader.pch";
+				INFOPLIST_FILE = HJAudioRecorder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.psl.whj.HJAudioRecorder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D2A780FE1FB9A58E00BE7CE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C1A9D66E8F2210BA5F91B2F /* Pods-HJAudioRecorder.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7BY6XUZ4WR;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/HJPrefixHeader.pch";
+				INFOPLIST_FILE = HJAudioRecorder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.psl.whj.HJAudioRecorder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D2A781001FB9A58E00BE7CE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 114E69C953A13251571EF558 /* Pods-HJAudioRecorderTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2PZMTS6D3B;
+				INFOPLIST_FILE = HJAudioRecorderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.psl.whj.HJAudioRecorderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HJAudioRecorder.app/HJAudioRecorder";
+			};
+			name = Debug;
+		};
+		D2A781011FB9A58E00BE7CE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E78B49998CFB893984F765C /* Pods-HJAudioRecorderTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2PZMTS6D3B;
+				INFOPLIST_FILE = HJAudioRecorderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.psl.whj.HJAudioRecorderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HJAudioRecorder.app/HJAudioRecorder";
+			};
+			name = Release;
+		};
+		D2A781031FB9A58E00BE7CE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2PZMTS6D3B;
+				INFOPLIST_FILE = HJAudioRecorderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.psl.whj.HJAudioRecorderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HJAudioRecorder;
+			};
+			name = Debug;
+		};
+		D2A781041FB9A58E00BE7CE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2PZMTS6D3B;
+				INFOPLIST_FILE = HJAudioRecorderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.psl.whj.HJAudioRecorderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HJAudioRecorder;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2A780CB1FB9A58E00BE7CE9 /* Build configuration list for PBXProject "HJAudioRecorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2A780FA1FB9A58E00BE7CE9 /* Debug */,
+				D2A780FB1FB9A58E00BE7CE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2A780FC1FB9A58E00BE7CE9 /* Build configuration list for PBXNativeTarget "HJAudioRecorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2A780FD1FB9A58E00BE7CE9 /* Debug */,
+				D2A780FE1FB9A58E00BE7CE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2A780FF1FB9A58E00BE7CE9 /* Build configuration list for PBXNativeTarget "HJAudioRecorderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2A781001FB9A58E00BE7CE9 /* Debug */,
+				D2A781011FB9A58E00BE7CE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2A781021FB9A58E00BE7CE9 /* Build configuration list for PBXNativeTarget "HJAudioRecorderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2A781031FB9A58E00BE7CE9 /* Debug */,
+				D2A781041FB9A58E00BE7CE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D2A780C81FB9A58E00BE7CE9 /* Project object */;
+}
